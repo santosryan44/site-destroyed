@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destroyed Ship</title>
+    <meta name="description" content="Site do jogo Destroyed Ship">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="Imagens/icon.png">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" title="Home" class="header-log">
+            <img src="Imagens/logo.png" alt="Destroyed Ship">
+        </a>
+        <a href="javascript:mostrarMenu()" title="Menu" class="header-menu">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <nav class="header-nav">
+            <ul>
+                <li>
+                    <a href="index.html" title="Home">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="#banner" title="Sobre o jogo">Sobre o jogo</a>
+                </li>
+                <li>
+                    <a href="#jogar" title="Jogar">Jogar</a>
+                </li>
+                <li>
+                    <a href="#contatos" title="Contatos">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+        <div class="flex">
+            <img src="Imagens/top.jpg" alt="Destroyed Ship">
+        </div>
+        <div class="sobre">
+            <section id="banner"></section>
+            <h1>
+                <strong>Sobre o Destroyed Ship</strong>
+            </h1>
+        </div>
+        <div class="texto">
+            <img src="Imagens/sobre.png" alt="" width="600px">
+            <p>O jogo Destroyed Ship é um jogo de ação e aventura em que o jogador assume o controle de
+                um piloto
+                em uma missão para destruir inimigos quem ameação a paz do céu. O objetivo principal do jogo é eliminar
+                todas as ameaças
+                aéreas.</p>
+        </div>
+
+    </section>
+
+    <section id="jogar">
+        <div class="play">
+            <img src="./movimento.gif" width="1345px" height="300px">
+            </img>
+            <ul>
+                <li>
+                    <h1><a href="https://santosryan.itch.io/destroyed-ship" target="_blank">Clique aqui para jogar </a>
+                    </h1>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="contatos">
+        <div class="contatod">
+            <h1>Dúvidas? Entre em contato</h1>
+            <ul>
+                <li>
+                    <p>
+                       <strong> <i class="fa-brands fa-whatsapp"></i>
+                        Whatsapp: 44 99714-8587
+                    </strong>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       <strong> <i class="fa-solid fa-envelope"></i>
+                        Email: sryanst13@gmail.com
+                    </strong>
+                    </p>
+                </li>
+            </ul>
+
+
+
+        </div>
+    </section>
+    <script>
+        function mostrarMenu() {
+            var menu = document.querySelector(".header-nav");
+            menu.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
