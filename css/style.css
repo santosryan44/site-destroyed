@@ -20,7 +20,8 @@ body {
     box-sizing: border-box;
 
 }
-.sobre{
+
+.sobre {
     margin-top: 30px;
 }
 
@@ -46,7 +47,8 @@ body {
     text-decoration: none;
     color: red;
 }
-.header-nav:hover ul li a{
+
+.header .header-nav ul li a:hover {
     color: green;
 }
 
@@ -61,26 +63,54 @@ body {
 .show {
     display: block !important;
 }
+
 .banner {
     min-height: 800px;
 }
 
+img {
+    width: 80%;
+}
+
 @media(min-width:460px) {
+
+    .header img {
+        width: 22%;
+
+    }
+
+    .flex img {
+        width: 100%;
+    }
+
+    .texto p {
+        font-size: 32px;
+    }
+
+    .play img {
+        width: 100%;
+    }
+
     .header .header-menu {
         display: none;
+
     }
 
     .header .header-nav {
         display: block;
     }
-    .header .header-nav{
+
+    .header .header-nav {
         float: right;
         margin-top: 11px;
+
     }
-    .header .header-nav ul li{
+
+    .header .header-nav ul li {
         display: inline-block;
     }
 }
+
 .texto {
     font-size: arial verdana;
     display: flex;
@@ -88,14 +118,15 @@ body {
     padding: 50px;
     box-sizing: border-box;
     margin-top: 2%;
-    text-align:center;
-    
+    text-align: center;
+
 }
 
-h1{
+h1 {
     text-align: center;
     margin-top: 15px;
 }
+
 .play h1 a {
     list-style: none;
     margin: 15px;
@@ -105,17 +136,30 @@ h1{
     text-align: center;
     color: red;
     text-align: center;
-    
+
 }
 
 .contatod h1 {
     text-align: center;
     margin-top: 30px;
 }
-.contatod ul li p{
+
+.contatod ul li p {
     text-align: center;
-    margin-bottom: 30px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.play:hover a {
+
+.play a:hover {
     color: green;
+}
+
+.main-footer {
+    display: flex;
+    background-color: black;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    justify-content: center;
+    color: white;
+
 }
